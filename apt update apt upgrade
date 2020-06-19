@@ -5,7 +5,7 @@
     | Instagram-py performs slick brute force attack on Instagram without any type of password limiting
     | and also resumes your attack in ease. 
     
-    --DeathSec
+    --Death
 
 
 .. image:: https://img.shields.io/github/issues/deathsec/instagram-py.svg?style=flat-square   
@@ -22,7 +22,8 @@
 
 .. image:: https://img.shields.io/pypi/v/instagram-py.svg?style=flat-square
       :target: #
-
+apt update
+apt upgrade
 
 
   
@@ -363,7 +364,7 @@ This is a simple script to conduct a bructe force attack using instagram-py as a
  from InstagramPy.InstagramPyInstance import InstagramPyInstance
  from datetime import datetime
  
- username = "TARGET ACCOUNT USERNAME"
+ username = "
  password = "PASSWORD LIST PATH"
 
  appInfo = {
